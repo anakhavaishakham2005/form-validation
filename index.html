@@ -17,21 +17,28 @@
             <main class="signup-body">
                 <form action="#">
                     <p><label for="name">Full Name</label>
-                        <input type="text" placeholder="Type Name here" />
+                        <input type="text" placeholder="Type Name here" id="name" required pattern="[A-Za-z\s]{2,}"/>
+                        <span id="nameError" > Name is required</span>
                     </p>
                     <p><label for="email">Email</label>
-                        <input type="email" placeholder="abc@gmail.com" />
+                        <input type="email" placeholder="abc@gmail.com" required/>
                     </p>
                     <p><label for="name">Password</label>
-                        <input type="password" placeholder="atleast 8 characters" />
+                        <input type="password" placeholder="atleast 8 characters" required minlength="8" maxlength="20"/>
+                    </p>
+                    <p>
+                        <input type="submit" value="Create Account" id="submitBtn"/>
                     </p>
 
                 </form>
             </main>
-            <footer></footer>
+            <footer>
+                <p>Already have an account <a href="">Login</a></p>
+            </footer>
         </div>
     </div>
 
 </body>
+<script src="script.js"></script>
 
 </html>

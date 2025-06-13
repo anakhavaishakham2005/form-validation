@@ -29,5 +29,67 @@
     font-size:2.2rem;
     text-align: center;
     padding: 5px 8px;
+    color: white;
+
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.signup-body p{
+    margin-top: 20px;
+}
+
+.signup-body p a{
+    font-size: 18px;
+    font-weight:  600;
+}
+
+span{
+    font-weight: 200;
+    font-size: 14px;
+    color: white;
+}
+
+.signup-body p input{
+    width:100%;
+    padding:10px;
+    border-radius:4px;
+    font-size: 16px;
+    margin-block:4px;
+    color:rgb(0, 0, 0);
+}
+
+.signup-body p input[type="submit"]{
+    border:none;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    font-weight:700;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background-color: #45525a;
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    font-weight:600px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
 
 }
