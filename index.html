@@ -17,13 +17,16 @@
             <main class="signup-body">
                 <form action="#">
                     <p><label for="name">Full Name</label>
+                        <i class="fas fa-user"></i>
                         <input type="text" placeholder="Type Name here" id="name" required pattern="[A-Za-z\s]{2,}"/>
                         <span id="nameError" > Name is required</span>
                     </p>
                     <p><label for="email">Email</label>
+                        <i class="fas fa-envelope"></i>
                         <input type="email" placeholder="abc@gmail.com" required/>
                     </p>
                     <p><label for="name">Password</label>
+                        <i class="fas fa-lock"></i>
                         <input type="password" placeholder="atleast 8 characters" required minlength="8" maxlength="20"/>
                     </p>
                     <p>
@@ -40,5 +43,6 @@
 
 </body>
 <script src="script.js"></script>
+<script src="https://kit.fontawesome.com/c728510cf8.js" crossorigin="anonymous"></script>
 
 </html>
